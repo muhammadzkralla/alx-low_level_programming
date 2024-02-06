@@ -16,6 +16,7 @@ int main(void)
 
 	printf("Found %d at index: %d\n\n", 3, interpolation_search(array, size, 3));
 	printf("Found %d at index: %d\n\n", 7, interpolation_search(array, size, 7));
-	printf("Found %d at index: %d\n", 999, interpolation_search(array, size, 999));
+	printf("Found %d at index: %d\n", 999
+			, interpolation_search(array, size, 999));
 	return (EXIT_SUCCESS);
 }

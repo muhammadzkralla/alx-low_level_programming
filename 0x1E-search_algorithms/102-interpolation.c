@@ -17,6 +17,9 @@ int interpolation_search(int *array, size_t size, int value)
 
 	while (value >= *(array + l) && value <= *(array + r) && l <= r)
 	{
+		if (size == 0)
+			break;
+
 		probe = l + (r - l) * (value - *(array + l))
 			/ (*(array + r) - *(array + l));
 

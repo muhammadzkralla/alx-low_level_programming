@@ -1,5 +1,4 @@
 #include "search_algos.h"
-#include <math.h>
 
 /**
  * continue_search - Completes the search.
@@ -7,6 +6,8 @@
  * @array: Pointer to the first item in the array.
  * @size: Size of the array.
  * @value: Value to search for.
+ * @currIdx: Current Index.
+ * @jump: The jump range.
  *
  * Return: first index where value is located, or -1 on failure
  */

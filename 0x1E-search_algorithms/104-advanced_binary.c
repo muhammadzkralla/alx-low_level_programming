@@ -1,11 +1,11 @@
 #include "search_algos.h"
 
 /**
- * advanced_binary_recursive - Advanced binary search algorithm.
+ * advanced_binary_search - Advanced binary search algorithm.
  *
  * @array: Pointer to the first element in the array.
  * @l: Left boundary.
- * @r: Right boundary. 
+ * @r: Right boundary.
  * @value: Value to look for.
  *
  * Return: Index of the item or -1.
@@ -34,7 +34,7 @@ int advanced_binary_search(int *array, size_t l, size_t r, int value)
 
 /**
  * advanced_binary - Advanced binary search to find the first
- * 			occurence of an item in an array.
+ *			occurence of an item in an array.
  * @array: Pointer to the first item.
  * @size: Size of the array.
  * @value: The value to look for.

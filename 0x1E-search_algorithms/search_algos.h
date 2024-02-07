@@ -11,5 +11,6 @@ int jump_search(int *array, size_t size, int value);
 int continue_search(int *array, size_t size
 		, int value, int currentIdx, int jump);
 int interpolation_search(int *array, size_t size, int value);
+int exponential_search(int *array, size_t size, int value);
 
 #endif

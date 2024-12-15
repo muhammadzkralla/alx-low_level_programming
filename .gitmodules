@@ -1,0 +1,3 @@
+[submodule "0x16-Simple_Shell"]
+	path = 0x16-Simple_Shell
+	url = https://github.com/muhammadzkralla/super_simple_shell

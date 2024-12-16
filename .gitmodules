@@ -4,3 +4,6 @@
 [submodule "0x16-simple_shell"]
 	path = 0x16-simple_shell
 	url = https://github.com/muhammadzkralla/super_simple_shell
+[submodule "0x1B-Sorting_algorithms_&_Big_O"]
+	path = 0x1B-Sorting_algorithms_&_Big_O
+	url = https://github.com/muhammadzkralla/sorting_algorithms
